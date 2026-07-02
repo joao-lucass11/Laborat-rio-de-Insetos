@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caderno Digital de um Laboratório de Insetos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pinned-corner" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1>Caderno Digital de um<br>Laboratório de Insetos</h1>
+    <p class="subtitle">Projeto de Banco de Dados com aplicação de POO, HTML e CSS.</p>
+    <p class="author">João Lucas Gomes Câmara · 2º ano do Ensino Médio · IFTO Formoso do Araguaia</p>
+    <nav class="site-nav">
+      <a href="#projeto">O Projeto</a>
+      <a href="#fluxo">Fluxo</a>
+      <a href="#importancia">Importância</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#inseto">Inseto Favorito</a>
+      <a href="#inspiracao">Inspiração</a>
+      <a href="#repositorio">Repositório</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="projeto" class="card">
+    <h2>Do que se trata este caderno</h2>
+    <p>Projeto pessoal de <strong>Banco de Dados</strong>: um sistema de gerenciamento para um laboratório de insetos, que registra o processo entre a coleta em campo e a pesquisa científica.</p>
+    <p>O projeto envolve três áreas:</p>
+    <div class="grid-three">
+      <div class="mini-card">
+        <span class="mini-label">BD</span>
+        <p>Modelagem do banco de dados: coletas, insetos, taxonomia e pesquisas.</p>
+      </div>
+      <div class="mini-card">
+        <span class="mini-label">POO</span>
+        <p>Lógica do sistema, estruturada em classes e objetos.</p>
+      </div>
+      <div class="mini-card">
+        <span class="mini-label">HTML/CSS</span>
+        <p>Interface de apresentação do projeto, incluindo esta página.</p>
+      </div>
+    </div>
+    <p>Base: disciplinas de <strong>POO</strong>, <strong>Banco de Dados</strong> e <strong>Projeto Integrador</strong>. Orientação: professor <strong>Matheus Rodrigues</strong>.</p>
+  </section>
+
+  <section id="fluxo" class="card alt">
+    <h2>Do campo até a ciência</h2>
+    <p>Um coletor vai a campo e captura insetos. A coleta é registrada no sistema, associada a uma localização específica. Os insetos encontrados são cadastrados e vinculados a essa coleta, e cada um recebe sua classificação taxonômica.</p>
+    <p>Pesquisadores utilizam os insetos cadastrados para realizar pesquisas. Uma pesquisa pode estudar vários insetos, e um inseto pode participar de várias pesquisas.</p>
+  </section>
+
+  <section id="importancia" class="card">
+    <h2>Por que organizar isso importa</h2>
+    <p>Sem um sistema de registro, dados de coleta, catalogação e pesquisa ficam dispersos e sujeitos a perda. Cada coleta é única: local, data e condições não se repetem.</p>
+    <p>Um banco de dados estruturado permite rastrear a origem de cada inseto, sua classificação e as pesquisas em que já foi utilizado, reduzindo retrabalho e mantendo o histórico acessível.</p>
+    <p>A aplicação de POO organiza a lógica do sistema em componentes reutilizáveis, e a interface em HTML/CSS torna essas informações acessíveis a quem não trabalha diretamente com o código.</p>
+  </section>
+
+  <section id="galeria" class="card alt">
+    <h2>Registros visuais</h2>
+    <div class="gallery">
+      <figure>
+        <img src="https://i.pinimg.com/736x/7f/97/20/7f972055a800535d1a74a1e69de4b7c9.jpg" alt="Livro com ilustrações de insetos">
+        <figcaption>Referência taxonômica: livro de insetos.</figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.pinimg.com/736x/e9/59/23/e9592322395d8adb302a2de870381611.jpg" alt="Coleta de insetos em campo">
+        <figcaption>Coleta em campo.</figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.pinimg.com/1200x/69/59/f3/6959f3a9738dfad24b7b5307a53b6a5a.jpg" alt="Rede de dados conectados">
+        <figcaption>Rede de dados.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="inseto" class="card">
+    <h2>Meu inseto favorito</h2>
+    <img class="insect-favorite" src="https://i.pinimg.com/736x/db/4a/c8/db4ac8d2b5fd03b6ac4dcf15994d71c5.jpg" alt="Abelha">
+  </section>
+
+  <section id="inspiracao" class="card alt center">
+    <h2>De onde veio a ideia</h2>
+    <p>A inspiração para este projeto veio do professor Dr. <strong>Danilo Henrique</strong>.</p>
+  </section>
+
+  <section id="repositorio" class="card repo-card">
+    <h2>Veja o projeto completo</h2>
+    <p>Todo o código, modelagem e implementação estão disponíveis no repositório abaixo.</p>
+    <a class="repo-button" href="https://github.com/joao-lucass11/Laborat-rio-de-Insetos.git" target="_blank" rel="noopener noreferrer">Acessar repositório no GitHub</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Projeto pessoal de Banco de Dados · Disciplinas de POO, Banco de Dados e Projeto Integrador</p>
+  <p>Orientação: Professor <strong>Matheus Rodrigues</strong> · Inspiração: Professor Dr. <strong>Danilo Henrique</strong></p>
+</footer>
+
+</body>
+</html>
